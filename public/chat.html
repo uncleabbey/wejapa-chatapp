@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wejapa Chat</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="row header">
+      <img src="/assets/logo.png" alt="logo">
+      <h4>ChatApp</h4>
+    </header>
+    <main class="main-container">
+      <div class="main">
+          <section class="online-user-container">
+            <ul class="online-users">
+              <h6>Online Users</h6>
+              <!-- <li>John</li>
+              <li>Paul</li>
+              <li>Luke</li>
+              <li>Gabriel</li> -->
+            </ul>
+          </section>
+          <section class="chat-container">
+            <div class="messages">
+              <!-- <div class="message">
+                <p>John <span>9:30am</span></p>
+                <p>Hello</p>
+              </div>
+              <div class="message">
+                <p class="meta">Paul <span>9:30am</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, quis!</p>
+              </div>
+              <div class="message">
+                <p>Paul <span>9:30am</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, quis!</p>
+              </div>
+              <div class="message">
+                <p>Paul <span>9:30am</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, quis!</p>
+              </div>
+              <div class="message">
+                <p>Paul <span>9:30am</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, quis!</p>
+              </div> -->
+            </div>
+            <form id="chat-form" class="chat-form">
+              <input type="text" id="msg" name="msg" placeholder="Type your Messages">
+              <button type="submit" class="chat-form-btn">Send</button>
+          </form>
+          </section>
+      </div>
+    </main>
+    
+  </div>
+  <footer>
+    <p>Made with Love by UncleAbbey</p>
+  </footer>
+  <script 
+  src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js" 
+  integrity="sha512-BHtomM5XDcUy7tDNcrcX1Eh0RogdWiMdXl3wJcKB3PFekXb3l5aDzymaTher61u6vEZySnoC/SAj2Y/p918Y3w==" 
+  crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

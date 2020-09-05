@@ -1,0 +1,17 @@
+{
+  "name": "simple-chat-app",
+  "version": "1.0.0",
+  "description": "A simple chat app with node, socket.io, express",
+  "main": "index.js",
+  "author": "Uncleabbey",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  }
+}
